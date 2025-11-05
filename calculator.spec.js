@@ -1,7 +1,7 @@
 const Calculator = require("./Calculator");
 
 let calculator = new Calculator()
-test("Deve retornar 4 quando somar 3 + 3", () => {
+test("Deve retornar 6 quando somar 3 + 3", () => {
 expect(calculator.add(3, 3)).toBe(6);
 })
 
