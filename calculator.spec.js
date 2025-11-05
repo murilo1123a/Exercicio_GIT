@@ -2,7 +2,7 @@ const Calculator = require("./Calculator");
 
 let calculator = new Calculator()
 test("Deve retornar 4 quando somar 2 + 2", () => {
-expect(calculator.add(2, 2)).toBe(4);
+expect(calculator.add(1, 1)).toBe(4);
 })
 
 
