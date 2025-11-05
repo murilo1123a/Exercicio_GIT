@@ -1,8 +1,8 @@
 const Calculator = require("./Calculator");
 
 let calculator = new Calculator()
-test("Deve retornar 4 quando somar 2 + 2", () => {
-expect(calculator.add(2, 2)).toBe(4);
+test("Deve retornar 4 quando somar 3 + 3", () => {
+expect(calculator.add(3, 3)).toBe(6);
 })
 
 test("Deve retornar 10 quando somar 5 + 5", () => {
